@@ -81,6 +81,8 @@ public class cs623project {
 			stmt1.executeUpdate("insert into product values ('p100','cd',5)");
 		
 			stmt1.executeUpdate("insert into stock values ('p100','d2',50)");
+			
+			
 		} catch (SQLException e) {
 			
 			System.out.println(e);
